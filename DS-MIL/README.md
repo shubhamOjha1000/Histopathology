@@ -1,0 +1,2 @@
+# DSMIL: Dual-stream multiple instance learning networks for tumor detection in Whole Slide Image
+Pytorch implementation for the multiple instance learning model described in the paper [Dual-stream Multiple Instance Learning Network for Whol
