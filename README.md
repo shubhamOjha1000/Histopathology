@@ -4,4 +4,4 @@
 - This repo is work in progress. 
 
 ## Papers List 
-#### 1. DS-MIL (Dual-stream Multiple Instance Learning Network for Whole Slide Image Classification with Self-supervised Contrastive Learning). [**Link**](https://github.com/shubhamOjha1000/Histopathology/DS-MIL)
+#### 1. DS-MIL (Dual-stream Multiple Instance Learning Network for Whole Slide Image Classification with Self-supervised Contrastive Learning). [**Link**](https://github.com/shubhamOjha1000/Histopathology)
