@@ -36,7 +36,71 @@ root
 
 <img width="614" alt="preprocessing" src="https://github.com/shubhamOjha1000/Histopathology/assets/72977734/c4182364-04e7-4dce-9cb9-c61c97d793c0">
 
+Useful arguments:
+```
+[-d]    [--dataset]         # Dataset name.
+
+[-p]    [--path_to_WSI]     # Path to WSI folder.
+
+[-e]    [--overlap]         # Amount of overlap between adjacent tiles . By default 0 signifying no overlap.
+
+[-f]    [--format]          # Image format for individual tiles/patch. By default jpeg format.
+
+[-v]    [--slide_format]    # Image format for WSI. By default svs.
+
+[-j]    [--workers]         # The number of worker processes to use for parallel tile generation. This parameter controls the level of parallelism in the tiling process. By default it is set to 4.
+
+[-q]    [--quality]         # JPEG compression quality.This parameter is used when saving image tiles/patches in a compressed format(eg JPEG).Higer values typically result in better quality but leads to larger file size. By default 70.
+
+[-s]    [--tile_size]       # Individula tile/patch size. By default 224.
+
+[-b]    [--base_mag]        # Dataset name.
+
+[-o]    [--objective]       # The objective magnification power of the microscope used to capture the image. If metadata does not present then value is set to 20.
+
+[-t]    [--background_t]    # Threshold for filtering background. Tiles above the threshold are further processed and saved. By default 15.
+
+[-m]    [--magnifications]  # A list of magnification levels for generating image tiles. Each level corresponds to a specific zoom level in zoom pyramid. Suppose a WSI has max resolution 20x, here 0 corresponds to the full/max resolution level. In zoom pyramid each level is created by downscaling the previous level resolution by a factor of 2. So 10x resolution will have level 1 and 5x resolution will have level 2. See fig below of zoom pyramid :-
+
+```
 <img width="614" alt="pyramid" src="https://github.com/shubhamOjha1000/Histopathology/assets/72977734/33744a15-67aa-4485-b3db-3be9d6a6b9b3">
+
+Once patch extraction is performed, folder will appear like this :- 
+- `pyramid folder` :-
+```
+root
+|-- WSI
+|   |-- DATASET_NAME
+|   |   |-- pyramid
+|   |   |   |-- CLASS_1
+|   |   |   |   |-- SLIDE_1
+|   |   |   |   |   |-- PATCH_LOW_1
+|   |   |   |   |   |   |-- PATCH_HIGH_1.jpeg
+|   |   |   |   |   |   |-- ...
+|   |   |   |   |   |-- ...
+|   |   |   |   |   |-- PATCH_LOW_1.jpeg
+|   |   |   |   |   |-- ...
+|   |   |   |   |-- ...
+
+```
+
+
+- `single folder` :-
+```
+root
+|-- WSI
+|   |-- DATASET_NAME
+|   |   |-- single
+|   |   |   |-- CLASS_1
+|   |   |   |   |-- SLIDE_1
+|   |   |   |   |   |-- PATCH_1.jpeg
+|   |   |   |   |   |-- ...
+|   |   |   |   |-- ...
+
+```
+
+
+
 
 
 3. Train an embedder :- 
