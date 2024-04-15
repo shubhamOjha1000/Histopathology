@@ -127,4 +127,16 @@ For each bag, there is a .pt file where each row contains the feature of an inst
 
 
 
-5. Training :- 
+4. Training :-
+```
+python train_tcga.py --dataset=TCGA-brain
+
+```
+
+
+
+
+
+
+   
+
