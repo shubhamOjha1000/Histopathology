@@ -67,6 +67,7 @@ Useful arguments:
 ```
 Prepare the patches
 ```
+python deepzoom_tiler.py
 
 ```
 
