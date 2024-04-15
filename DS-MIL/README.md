@@ -64,8 +64,15 @@ Useful arguments:
 [-t]    [--background_t]    # Threshold for filtering background. Tiles above the threshold are further processed and saved. By default 15.
 
 [-m]    [--magnifications]  # A list of magnification levels for generating image tiles. Each level corresponds to a specific zoom level in zoom pyramid. Suppose a WSI has max resolution 20x, here 0 corresponds to the full/max resolution level. In zoom pyramid each level is created by downscaling the previous level resolution by a factor of 2. So 10x resolution will have level 1 and 5x resolution will have level 2. See fig below of zoom pyramid :-
+```
+Prepare the patches
+```
 
 ```
+
+
+
+
 <img width="614" alt="pyramid" src="https://github.com/shubhamOjha1000/Histopathology/assets/72977734/33744a15-67aa-4485-b3db-3be9d6a6b9b3">
 
 Once patch extraction is performed, folder will appear like this :- 
