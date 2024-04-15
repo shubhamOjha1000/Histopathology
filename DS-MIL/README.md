@@ -11,6 +11,12 @@ You can either download TCGA-Brain from the website or take it from this repo :-
 ```
 gdc_manifest_brain_full.txt
 ```
+Get lables for TCGA-Brain from the website :- 
+```
+python get_labels.py
+
+```
+
 
 
 
