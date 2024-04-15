@@ -114,8 +114,8 @@ root
 
 
 
-3. Train an embedder :- 
 
-4. Compute features using the embedder :- 
 
-5. Training :- 
+3. Compute features using the embedder :- 
+
+4. Training :- 
