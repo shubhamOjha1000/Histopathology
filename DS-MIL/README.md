@@ -151,7 +151,7 @@ For each bag, there is a .pt file where each row contains the feature of an inst
 python train_tcga.py --dataset=TCGA-brain
 
 ```
-
+### Results on TCGA-Brain for three way classification :- 
 
 | Metric       | Accuracy    | AUC    |
 |--------------|-------------|--------|
