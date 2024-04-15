@@ -116,7 +116,7 @@ root
 
 
 
-3. Compute features using the embedder :-
+### 3. Compute features using the embedder :-
 ```
 python compute_feats.py --dataset=TCGA-brain --magnification=tree
 
@@ -127,7 +127,7 @@ For each bag, there is a .pt file where each row contains the feature of an inst
 
 
 
-4. Training :-
+### 4. Training :-
 ```
 python train_tcga.py --dataset=TCGA-brain
 
