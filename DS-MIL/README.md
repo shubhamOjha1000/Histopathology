@@ -32,7 +32,7 @@ root
 |   |   |   |-- ...
 ```
 
-2. Crop patches :-
+### 2. Crop patches :-
 
 <img width="614" alt="preprocessing" src="https://github.com/shubhamOjha1000/Histopathology/assets/72977734/c4182364-04e7-4dce-9cb9-c61c97d793c0">
 
