@@ -86,7 +86,7 @@ def get_csv_file(file_id : List['str']) -> None:
 
 
 if __name__ == '__main__':
-    WSI_list = os.listdir('/scratch/shubham.ojha/LUNG_DATA_DIRECTORY')
+    WSI_list = os.listdir('/scratch/shubham.ojha/Brain_DATA_DIRECTORY')
 
     file_id_list = []
     for wsi in WSI_list:
