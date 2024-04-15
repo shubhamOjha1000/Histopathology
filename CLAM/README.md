@@ -16,9 +16,16 @@ Get lables for TCGA-Brain from the website :-
 python get_labels.py
 
 ```
+### 1. Place WSI files as :- 
+```
+DATA_DIRECTORY/
+	├── slide_1.svs
+	├── slide_2.svs
+	└── ...
+```
 
 
-### 1. Create Patches :- 
+### 2. Create Patches :- 
 ```
 python create_patches_fp.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY --patch_size 256 --seg --patch --stitch 
 
