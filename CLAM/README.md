@@ -18,7 +18,7 @@ python get_labels.py
 ```
 
 
-### Create Patches :- 
+### 1. Create Patches :- 
 ```
 python create_patches_fp.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY --patch_size 256 --seg --patch --stitch 
 
