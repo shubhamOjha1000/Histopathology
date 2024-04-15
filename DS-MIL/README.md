@@ -153,6 +153,11 @@ python train_tcga.py --dataset=TCGA-brain
 ```
 
 
+| Metric       | Accuracy    | AUC    |
+|--------------|-------------|--------|
+| **Values**  | 84.7%      | 86.78 |
+
+
 
 
 
