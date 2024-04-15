@@ -67,7 +67,7 @@ Useful arguments:
 ```
 Prepare the patches
 ```
-python deepzoom_tiler.py
+python deepzoom_tiler.py -d=' Dataset name' -p='Path to WSI folder' -e='Amount of overlap between adjacent tiles' -f='jpeg' -v='svs' -j=4 -q=70 -s=224 -o=20 -t=20 -m 0 2
 
 ```
 
