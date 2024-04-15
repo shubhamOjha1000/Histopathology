@@ -37,6 +37,21 @@ python extract_features_fp.py --data_h5_dir DIR_TO_COORDS --data_slide_dir DATA_
 
 ```
 
+### 4. Training :- 
+```
+python main.py --drop_out 0.25 --early_stopping --lr 2e-4 --k 10 --exp_code task_2_tumor_subtyping_CLAM_50 --weighted_sample --bag_loss ce --inst_loss svm --task task_2_tumor_subtyping --model_type clam_sb --log_data --subtyping --data_root_dir DATA_ROOT_DIR --embed_dim 1024
+
+```
+
+
+
+
+
+### Results on TCGA-Brain for three way classification :- 
+
+| Metric       | Accuracy    | AUC    |
+|--------------|-------------|--------|
+| **Values**  | 94.7%      | 94.8 |
 
 
 
