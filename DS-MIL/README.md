@@ -3,7 +3,7 @@ Pytorch implementation for the multiple instance learning model described in the
 
 ## Training on your own datasets:-
 
-1. ### Place WSI files as `WSI\[DATASET_NAME]\[CATEGORY_NAME]\SLIDE_NAME.svs`.
+###  1. Place WSI files as `WSI\[DATASET_NAME]\[CATEGORY_NAME]\SLIDE_NAME.svs`.
 >#### Folder structures
 ```
 root
