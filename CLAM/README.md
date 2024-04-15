@@ -1,6 +1,6 @@
 # CLAM
 
-Pytorch implementation for the multiple instance learning model described in the paper :- Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images. Nature Biomedical Engineering (https://arxiv.org/abs/2004.09666)
+Pytorch implementation for the multiple instance learning model described in the paper :- [Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images.](https://arxiv.org/abs/2004.09666) Nature Biomedical Engineering 
 
 ## Download TCGA-Brain dataset :- 
 ```
