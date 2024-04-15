@@ -116,6 +116,14 @@ root
 
 
 
-3. Compute features using the embedder :- 
+3. Compute features using the embedder :-
+```
+python compute_feats.py --dataset=TCGA-brain --magnification=tree
 
-4. Training :- 
+```
+
+
+
+
+
+5. Training :- 
