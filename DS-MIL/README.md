@@ -121,6 +121,7 @@ root
 python compute_feats.py --dataset=TCGA-brain --magnification=tree
 
 ```
+For each bag, there is a .pt file where each row contains the feature of an instance. The .pt is named as "bagID.pt" and put into a folder named "dataset-name/Class_Name/".
 
 
 
